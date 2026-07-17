@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "epk",
+      "runtimeExecutable": "ruby",
+      "runtimeArgs": ["-run", "-e", "httpd", "/private/tmp/claude-501/-Users-laurena-miller-Desktop-Projects-lauren-ash-epk/374e9924-cddc-4e4f-8a57-72feba4c39f1/scratchpad/site", "-p", "4173"],
+      "port": 4173
+    }
+  ]
+}
