@@ -358,7 +358,12 @@ a:hover { text-decoration-color: var(--clay); }
 .venture:last-child { border-bottom: 1px solid var(--line); }
 
 .venture-image { margin: 0; }
+.venture-image a { display: block; }
 .venture-image img { border-radius: 2px; }
+
+.venture h3 a { color: inherit; text-decoration: none; }
+.venture h3 a:hover { text-decoration: underline; text-decoration-color: var(--clay); }
+.venture-link { display: inline-block; margin-top: 1.5rem; }
 
 .venture-meta {
   font-size: 0.72rem;
@@ -698,6 +703,8 @@ a:hover { text-decoration-color: var(--clay); }
   object-fit: cover;
   border-radius: 2px;
 }
+
+.photo-credit + .quiet-line { margin-top: 0.5rem; }
 
 @media (min-width: 56rem) {
   .photo-grid { grid-template-columns: repeat(3, 1fr); gap: 1rem; }
